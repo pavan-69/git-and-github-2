@@ -1,0 +1,26 @@
+1)how to check if git is available on your system?
+Open command prompt and type git --version it shows version 
+then git is installed
+
+2)how to initialize a new git repositary?
+using git init command to initilize
+
+3)how to tell git about your name and email?
+git config --global user.name "....."  
+git config --global user.email "......"
+
+4)how to add a file to the staging area?
+git add <file name> or git add .
+
+5)how to remove a file from the staging area?
+git rm --cached <file name>
+
+6)how to make a commit?
+git commit -m "suitable message"
+
+7)how to send your changes to a remote repository?
+git push -u origin main(branch name)
+
+8)what is the difference between clone and pull?
+clone means move entire data to your local files
+pull means move what changes they did to your local files
